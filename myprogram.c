@@ -89,7 +89,7 @@ int main()
 
 	}
 
-	// Free the stack
+	//Free the stack
 	free( stack );
 	printf("Transferências concluídas e memória liberada.\n");
 	return 0;
