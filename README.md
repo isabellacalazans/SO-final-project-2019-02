@@ -1,1 +1,60 @@
-# SO-final-project-2019-02
+# Trabalho final de Sistemas Operacionais (Uniceub - Ciências da Computação - 2º semestre)
+
+## Sinopse
+O código, após as revisões abaixo, é compilável em 3 sistemas operacionais: Unix, Linux e Windows.
+Após analisar o código original dado, foi verificado que a chamada para a função clone() não 
+Ações realizadas para permitir que o código seja portável:
+
+## 1- a função Clone 
+No trecho 
+                  
+                  pid = clone( &transferencia, (char*) stack + FIBER_STACK,
+                  SIGCHLD | CLONE_FS | CLONE_FILES | CLONE_SIGHAND | CLONE_VM, 0 );
+                  
+   ocorre chamada à função clone, que é uma função usada para criar um processo, porém é específica do Linux (aparentemente), pois ao tentar compilar o código original em ambiente windows 10 e Unix Solaris 11 ocorreu erro de compilação, conforme pode ser verificado nos respectivos arquivos [Erro ao Compilar com funcao Clone em Windows 10.jpg] e [Erro ao Compilar com funcao Clone em Unix Solaris 11.jpg].
+
+## 2- a biblioteca PThread
+Para resolver o problema, ou seja, permitir que o código fosse se tornasse portável, foi feita uma pesquisa com as seguintes palavras-chaves: "C programming thread". No resultado da pesquisa destacou-se a solução Pthread, que significa POSIX Thread. O acrônimo POSIX significa Portable Operating System Interface e é um conjunto de normas para permitir a compatibilidade de código-fonte entre sistemas operacionais.
+
+## 3- implementação de PThread
+  **3.1- Foram inseridas as linhas abaixo:**
+  
+                #define _OPEN_THREADS
+                #include <pthread.h>
+                
+  **3.- Para permitir o uso de pthread foi alterada a assinatura da função tranferencia de**
+  
+                int transferencia( void *arg)
+                      
+para
+                      
+                void *transferencia(void *arg)  
+                
+  3.x - também na função **transferencia** foi incluída a chamada **pthread_exit(ret)** 
+  
+  
+ 3. -Foi incluida a variável thid do tipo pthread_t, que é utilizada como identificação única da thread que será criada:
+  
+                pthread_t thid
+                
+  3.- Foi comentada a chamada da função clone.
+  
+  3.- Foi incluida a chamada à função pthread_create, conforme abaixo:
+  
+                pid = pthread_create (&thid, NULL, transferencia,"tread 1" )
+                
+  3.- O if de verificação de retorno da função clone (if ( pid == -1 )) foi alterado para (if ( pid != 0 )), pois o teste de retorno de erro de pthread é diferente.
+  
+  3.- Foi incluida a chamada para a função pthread_join, que é utilizada para aguardar o fim da thread:
+  
+              rstatus = pthread_join(thid, &thread_res)
+              
+##4- Como compilar
+A biblioteca pthread é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
+ 
+              gcc -lpthread myprogram.c -o myprogram
+       
+ Essa linha de compilação serve para todas as plataformas.
+              
+##5- Observações gerais
+Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
