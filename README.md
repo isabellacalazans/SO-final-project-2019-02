@@ -52,9 +52,9 @@ para
 ##4- Como compilar
 A biblioteca pthread é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
  
-              gcc -lpthread myprogram.c -o myprogram
+              gcc myprogram.c -o myprogram -lpthread
        
- Essa linha de compilação serve para todas as plataformas.
+obs: essa linha de compilação serve para todas as plataformas propostas (Win 10/Unix/Linux).
               
 ##5- Observações gerais
 Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
