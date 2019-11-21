@@ -2,7 +2,7 @@
 
 ## Sinopse
 Foi recebido um código-fonte em linguagem C para análise e ajustes que permitissem a portabilidade do código para ao menos dois de três sistemas operacionais informados: Linux, Unix e Windows.
-O código original, sem alterações, foi compilado para teste de seu funcionamento, quando foi detectado que não funcionava adequadamente, conforme a solicitação apresentada no [projeto final](SO-final-project-2019-02/blob/master/Arquivo%20Projeto%20Final%202019%2002.pdf)
+O código original, sem alterações, foi compilado para testar seu funcionamento, e foi detectado que não funcionava adequadamente, conforme mencionado no [projeto final.](SO-final-project-2019-02/blob/master/Arquivo%20Projeto%20Final%202019%2002.pdf)
 
 Segue abaixo as etapas detalhando os ajustes para correção e portabilidade do código.
 
