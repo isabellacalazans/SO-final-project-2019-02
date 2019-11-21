@@ -25,16 +25,19 @@ pid_t pid;
 void *transferencia(void *arg)
 {
   if (from.saldo >= valor){ // 2
-    from.saldo -= valor;
-    to.saldo += valor;
+	from.saldo -= valor;
+	to.saldo += valor;
+  
+    printf("Transferência concluída com sucesso!\n");
+    printf("Saldo de c1: %d\n", from.saldo);
+    printf("Saldo de c2: %d\n", to.saldo);
+
+    char *ret;
+    ret = (char*) malloc(20);
+    strcpy(ret, "Fim Ok");
+    pthread_exit(ret);
+    return 0;
   }
-   printf("Transferência concluída! Saldo c1: %d - Saldo  c2: %d\n" , from.saldo , to.saldo);
-   //printf("argumento recebido: %s",arg);
-   char *ret;
-   ret = (char*) malloc(20);
-   strcpy(ret, "Fim Ok");
-   pthread_exit(ret);
-   return 0;
 }
 
 int main()
