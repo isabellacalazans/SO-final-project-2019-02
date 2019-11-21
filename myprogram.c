@@ -30,11 +30,11 @@ void *transferencia(void *arg)
   
 	printf("Transferência concluída! Saldo c1: %d - Saldo  c2: %d\n" , from.saldo , to.saldo);
 
-    char *ret;
-    ret = (char*) malloc(20);
-    strcpy(ret, "Fim Ok");
-    pthread_exit(ret);
-    return 0;
+	char *ret;
+	ret = (char*) malloc(20);
+	strcpy(ret, "Fim Ok");
+	pthread_exit(ret);
+	return 0;
   }
 }
 
