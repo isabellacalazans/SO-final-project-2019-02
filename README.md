@@ -1,9 +1,11 @@
 # Trabalho final de Sistemas Operacionais (Uniceub - Ciências da Computação - 2º semestre)
 
 ## Sinopse
-O código, após as revisões abaixo, é compilável em 3 sistemas operacionais: Unix, Linux e Windows.
-Após analisar o código original dado, foi verificado que a chamada para a função clone() não 
-Ações realizadas para permitir que o código seja portável:
+## Sinopse
+Foi recebido um código-fonte em linguagem C para análise e ajustes que permitissem a portabilidade do código para ao menos dois de três sistemas operacionais informados: Linux, Unix e Windows.
+O código original, sem alterações, foi compilado para teste de seu funcionamento, quando foi detectado que não funcionava adequadamente, conforme a solicitação apresentada em https://github.com/isabellacalazans/SO-final-project-2019-02/blob/master/Arquivo%20Projeto%20Final%202019%2002.pdf
+
+Segue abaixo as etapas detalhando os ajustes para correção e portabilidade do código.
 
 ## 1- a função Clone 
 No trecho 
