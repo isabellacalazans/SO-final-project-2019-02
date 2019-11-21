@@ -28,9 +28,7 @@ void *transferencia(void *arg)
 	from.saldo -= valor;
 	to.saldo += valor;
   
-    printf("Transferência concluída com sucesso!\n");
-    printf("Saldo de c1: %d\n", from.saldo);
-    printf("Saldo de c2: %d\n", to.saldo);
+	printf("Transferência concluída! Saldo c1: %d - Saldo  c2: %d\n" , from.saldo , to.saldo);
 
     char *ret;
     ret = (char*) malloc(20);
