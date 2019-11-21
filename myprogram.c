@@ -19,7 +19,7 @@ typedef struct c conta;
 
 conta from, to;
 int valor;
-pid_t pid;
+int pid;
 
 // The child thread will execute this function
 void *transferencia(void *arg)
