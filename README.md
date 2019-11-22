@@ -34,12 +34,12 @@ Para resolver o problema, ou seja, permitir que o código se tornasse portável,
                 
   3.3- Ainda na função **transferencia** foram incluídas as linhas:
   
-              sem_wait(&mutex);  //semafóro de espera para controle da concorrência
+              sem_wait(&mutex);  //semáforo de espera para controle da concorrência
               .
               .   //checando saldo em conta
               .
               .
-              sem_post(&mutex);  //semafóro de liberação de controle
+              sem_post(&mutex);  //semáforo de liberação de controle
               pthread_exit(ret);  //termina a thread 
   
   
@@ -63,7 +63,7 @@ Para resolver o problema, ou seja, permitir que o código se tornasse portável,
               
   **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente o uso de semáforos.
   
-  3.9- No final do programa foi incluída a linha _sem_destroy(&mutex);_ para liberação dos semafóros.
+  3.9- No final do programa foi incluída a linha _sem_destroy(&mutex);_ para liberação dos semáforos.
   
   
 ## 4- Como compilar
@@ -91,13 +91,13 @@ Uma vez compilado o programa, conforme indicações no passo anterior, para exec
 ## 6- Coleta de Evidencias da Execução
 A coleta de evidências da execução do programa nos 3 ambientes (linux, unix e windows) foi feita de 2 formas: 
 1) _print screen_ da tela de comando/terminal:
-  [printscreen Windows](Cem%20transferencias%20simultaneas%20Windows%2010.jpg)
-  [printscreen Linux](Cem%20transferencias%20simultaneas%20Ubuntu.jpg)
-  [printscreen Unix](Cem%20transferencias%20simultaneas%20Unix%20Solaris%2011.jpg)
+   - [printscreen Windows](Cem%20transferencias%20simultaneas%20Windows%2010.jpg)
+   - [printscreen Linux](Cem%20transferencias%20simultaneas%20Ubuntu.jpg)
+   - [printscreen Unix](Cem%20transferencias%20simultaneas%20Unix%20Solaris%2011.jpg)
 2) gerando arquivo de saída através do redirecionamento da saída padrão para arquivo:
-  [arquivo txt Windows](out_win.txt)
-  [arquivo txt Linux](out_linux.txt)
-  [arquivo txt Unix](out_solaris.txt)
+   - [arquivo txt Windows](out_win.txt)
+   - [arquivo txt Linux](out_linux.txt)
+   - [arquivo txt Unix](out_solaris.txt)
 
 ## 7- Observações gerais
 Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca _pthread_ para a compilação. 
