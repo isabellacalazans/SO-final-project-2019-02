@@ -53,22 +53,21 @@ Para resolver o problema, ou seja, permitir que o código se tornasse portável,
   
   3.6- Antes da criação das _threads_ foi incluída a linha _sem_init(&mutex, 0, 1);_ para inicialização dos controle de semáforos no programa
   
-  3.7- Foi incluida a chamada à função pthread_create, conforme abaixo:
+  3.7- Foi incluida a chamada à função _pthread_create_, conforme abaixo:
   
                 ret = pthread_create (&thid[i], NULL, transferencia,"tread 1" )
-              
-  **observação:** para simular devidamente a concorrência foram criados 2 _for's_ sendo um deles específico para a criação das _threads_ (ao término deste for já estarão criadas e sendo executadas as 100 threads). E outro _for_ para o as chamadas pthread_join() conforme explicado no próximo tópico.
-  
-  3.8- Foi incluida a chamada para a função _pthread_join_, que é utilizada para aguardar o fim de thread indicada no primeiro parâmetro:
+               
+  3.8- Foi incluida a chamada para a função _pthread_join_, que é utilizada para aguardar o fim de thread indicada no primeiro parâmetro desta, conforme abaixo:
   
               ret = pthread_join(thid[], &thread_res)
               
-  **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir que estas fossem feitas após a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente a concorrência entre as _threads_. Desta forma, são criadas 100 _threads_ concorrentes entre si.
+  **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente o uso de semáforos.
   
-  3.9- No final do programa foi incluída a linha _	sem_destroy(&mutex);_ para liberação dos semafóros.
+  3.9- No final do programa foi incluída a linha _sem_destroy(&mutex);_ para liberação dos semafóros.
+  
   
 ## 4- Como compilar
-A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
+A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que utiliza essa biblioteca é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
  
               gcc myprogram.c -o myprogram -lpthread
        
@@ -76,7 +75,7 @@ A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a
 
 
 ## 5- Como executar
-Uma vez compilado conforme indicação no passo anterior, para executar o programa basta proceder conforme abaixo:
+Uma vez compilado o programa, conforme indicações no passo anterior, para executar basta proceder conforme abaixo:
   1. Linux: 
       - Abrir a janela do terminal (Ctrl+Shift+T), caso ainda não esteja aberta;
       - Vá até a pasta onde compilou o programa (utilize o comando _cd_ para navegar entre as pastas);
@@ -85,21 +84,21 @@ Uma vez compilado conforme indicação no passo anterior, para executar o progra
       - Após logar no sistema, vá até a pasta onde compilou o programa (utilize o comando _cd_ para navegar entre as pastas)
       - digite **./myprogram** e aguarde o resultado do processamento na tela do terminal.
   3. Windows: 
-     - Abrir o prompt de comando (tecla Win+R, digitar cmd e teclar enter)
+     - Abrir o _prompt_ de comando (tecla _Win+R_, digitar cmd e teclar enter)
      - Vá até a pasta onde compilou o programa (utilize o comando _cd_ para navegar entre as pastas)
-     - digite myprogram.exe e aguarde o resultado do processamento no _prompt_ de comando do Windows (nesse momento, alguns antí-virus podem iniciar uma verificação no seu programa, aguarde o término).
+     - digite **myprogram.exe** e aguarde o resultado do processamento no _prompt_ de comando do Windows (nesse momento, alguns antí-virus podem iniciar uma verificação no seu programa, aguarde o término dessa verificação).
 
 ## 6- Coleta de Evidencias da Execução
-A coleta de evidências da execução do programa nos 3 ambientes (linux, unix e windows) foi feita de duas formas: 
-1) _print screen_ da tela de comando/terminal
-    [printscreen Windows](Cem%20transferencias%20simultaneas%20Windows%2010.jpg)
-    [printscreen Linux](Cem%20transferencias%20simultaneas%20Ubuntu.jpg)
-    [printscreen Unix](Cem%20transferencias%20simultaneas%20Unix%20Solaris%2011.jpg)
-2) gerando arquivo de saída através do redirecionamento da saída padrão para arquivo
-    [arquivo txt Windows](out_win.txt)
-    [arquivo txt Linux](out_linux.txt)
-    [arquivo txt Unix](out_unix.txt)
+A coleta de evidências da execução do programa nos 3 ambientes (linux, unix e windows) foi feita de 2 formas: 
+1) _print screen_ da tela de comando/terminal:
+  [printscreen Windows](Cem%20transferencias%20simultaneas%20Windows%2010.jpg)
+  [printscreen Linux](Cem%20transferencias%20simultaneas%20Ubuntu.jpg)
+  [printscreen Unix](Cem%20transferencias%20simultaneas%20Unix%20Solaris%2011.jpg)
+2) gerando arquivo de saída através do redirecionamento da saída padrão para arquivo:
+  [arquivo txt Windows](out_win.txt)
+  [arquivo txt Linux](out_linux.txt)
+  [arquivo txt Unix](out_solaris.txt)
 
 ## 7- Observações gerais
-Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. 
+Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca _pthread_ para a compilação. 
 Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
