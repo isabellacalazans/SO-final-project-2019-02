@@ -18,7 +18,7 @@ No trecho
 Para resolver o problema, ou seja, permitir que o código se tornasse portável, foi feita uma pesquisa com as seguintes palavras-chaves: "C programming thread". No resultado da pesquisa destacou-se a solução Pthread, que significa POSIX Thread. O acrônimo POSIX significa Portable Operating System Interface e é um conjunto de normas para permitir a compatibilidade de código-fonte entre sistemas operacionais.
 
 ## 3- Implementação de PThread
-  **3.1- Foram inseridas as linhas abaixo:**
+  **3.1- Foram inseridas as linhas abaixo para a correta compilação e uso da biblioteca:**
   
                 #define _OPEN_THREADS
                 #include <pthread.h>
@@ -34,27 +34,40 @@ para
   3.x - também na função **transferencia** foi incluída a chamada **pthread_exit(ret)** 
   
   
- 3. -Foi incluida a variável thid do tipo pthread_t, que é utilizada como identificação única da thread que será criada:
+ 3. -Foi incluida a variável thid[], um array do tipo  _pthread_t_. Esse array vai acumular a identificação única de cada thread que será criada:
   
-                pthread_t thid
+                pthread_t thid[limite]
                 
   3.- Foi comentada a chamada da função clone.
   
   3.- Foi incluida a chamada à função pthread_create, conforme abaixo:
   
-                pid = pthread_create (&thid, NULL, transferencia,"tread 1" )
+                ret = pthread_create (&thid[i], NULL, transferencia,"tread 1" )
               
+  **observação:** para simular devidamente a concorrência foram criados 2 _for's_ sendo um deles específico para a criação das _threads_ (ao término deste for já estarão criadas e sendo executadas as 100 threads). E outro _for_ para o as chamadas pthread_join() conforme explicado no próximo tópico.
   
-  3.- Foi incluida a chamada para a função pthread_join, que é utilizada para aguardar o fim da thread:
+  3.- Foi incluida a chamada para a função _pthread_join_, que é utilizada para aguardar o fim de thread indicada no primeiro parâmetro:
   
-              rstatus = pthread_join(thid, &thread_res)
+              ret = pthread_join(thid[], &thread_res)
               
+  **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir que estas fossem feitas após a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente a concorrência entre as _threads_. Desta forma, são criadas 100 _threads_ concorrentes entre si.
+  
 ##4- Como compilar
-A biblioteca pthread é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
+A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
  
               gcc myprogram.c -o myprogram -lpthread
        
-obs: essa linha de compilação serve para todas as plataformas propostas (Win 10/Unix/Linux).
-              
-##5- Observações gerais
+**observação:** essa linha de compilação funciona em todas as plataformas propostas (Win 10/Unix/Linux).
+
+
+#5- Como executar
+Uma vez compilado conforme indicação no passo anterior, para executar o programa basta proceder conforme abaixo:
+  1. Linux: 
+  2. Unix:
+  3. Windows: 
+     - Abrir o prompt de comando (tecla Win+R, digitar cmd e teclar enter)
+     - Vá até a pasta onde compilou o programa (utilize o comando _cd_ para navegar entre as pastas)
+     - digite myprogram.exe e aguarde o resultado do processamento (nesse momento, alguns antí-virus podem iniciar uma verificação no seu programa, aguarde o término).
+
+#6- Observações gerais
 Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
