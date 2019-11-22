@@ -72,7 +72,7 @@ int main()
    //SIGCHLD | CLONE_FS | CLONE_FILES | CLONE_SIGHAND | CLONE_VM, 0 );
 
      pid = pthread_create (&thid[i], NULL, transferencia,"tread 1" );
-     if ( pid != 0 ) {
+     if ( pid == -1) {
        perror( "thread create error" );
        exit(2);
      }
@@ -84,7 +84,7 @@ int main()
 	rstatus = pthread_join(thid[i], &thread_res);
 
     /*verificar se ocorreu algum erro na chamada de pthread_join*/
-  	if(rstatus != 0)
+  	if(rstatus == -1)
   	{
   		printf ("Erro ao aguardar finalização do thread.\n");
   		exit(EXIT_FAILURE);
