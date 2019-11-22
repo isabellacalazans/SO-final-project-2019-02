@@ -24,18 +24,23 @@ int pid;
 // The child thread will execute this function
 void *transferencia(void *arg)
 {
-  if (from.saldo >= valor){ // 2
-	from.saldo -= valor;
-	to.saldo += valor;
-  
-	printf("Transferência concluída! Saldo c1: %d - Saldo  c2: %d\n" , from.saldo , to.saldo);
-
 	char *ret;
 	ret = (char*) malloc(20);
-	strcpy(ret, "Fim Ok");
-	pthread_exit(ret);
-	return 0;
-  }
+	
+	if (from.saldo >= valor){ // 2
+		from.saldo -= valor;
+		to.saldo += valor;
+
+		printf("Transferência concluída! Saldo c1: %d - Saldo  c2: %d\n" , from.saldo , to.saldo);
+
+		strcpy(ret, "Fim Ok");
+		pthread_exit(ret);
+		return 0;
+	}
+	else {
+		strcpy(ret, "Fim NOk - falha");
+		pthread_exit(ret);
+	}
 }
 
 int main()
@@ -86,7 +91,7 @@ int main()
   	}
 
   	/*exibe o valor de retorno da função 'routine'*/
-  	printf ("Thread finalizado! Retorno = %s\n", (char *)thread_res);
+  	printf ("Thread %lu finalizada! Retorno = %s \n", thid[i], (char *)thread_res);
 
  }
 
