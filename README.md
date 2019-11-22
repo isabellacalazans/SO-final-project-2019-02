@@ -54,7 +54,7 @@ para
               
   **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir que estas fossem feitas após a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente a concorrência entre as _threads_. Desta forma, são criadas 100 _threads_ concorrentes entre si.
   
-##4- Como compilar
+## 4- Como compilar
 A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
  
               gcc myprogram.c -o myprogram -lpthread
@@ -62,8 +62,7 @@ A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a
 **observação:** essa linha de compilação funciona em todas as plataformas propostas (Win 10/Unix/Linux).
 
 
-#5- Como executar
-
+## 5- Como executar
 Uma vez compilado conforme indicação no passo anterior, para executar o programa basta proceder conforme abaixo:
   1. Linux: 
   2. Unix:
@@ -72,6 +71,5 @@ Uma vez compilado conforme indicação no passo anterior, para executar o progra
      - Vá até a pasta onde compilou o programa (utilize o comando _cd_ para navegar entre as pastas)
      - digite myprogram.exe e aguarde o resultado do processamento (nesse momento, alguns antí-virus podem iniciar uma verificação no seu programa, aguarde o término).
 
-#6- Observações gerais
-
+## 6- Observações gerais
 Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
