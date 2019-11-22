@@ -76,7 +76,7 @@ int main()
        exit(2);
      }
 
-    printf ("valor de pid %lu \n", thid[i]);;
+    printf ("thread id  %lu \n", thid[i]);;
  }
  
  for (i = 0; i < limite; i++) {
