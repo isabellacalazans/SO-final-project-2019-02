@@ -18,10 +18,11 @@ No trecho
 Para resolver o problema, ou seja, permitir que o código se tornasse portável, foi feita uma pesquisa com as seguintes palavras-chaves: "C programming thread". No resultado da pesquisa destacou-se a solução Pthread, que significa POSIX Thread. O acrônimo POSIX significa Portable Operating System Interface e é um conjunto de normas para permitir a compatibilidade de código-fonte entre sistemas operacionais.
 
 ## 3- Implementação de PThread
-  **3.1- Foram inseridas as linhas abaixo para a correta compilação e uso da biblioteca:**
+  **3.1- Foram inseridas as linhas abaixo para a correta compilação e uso das bibliotecas:**
   
                 #define _OPEN_THREADS
                 #include <pthread.h>
+                #include <semaphore.h> 
                 
   **3.- Para permitir o uso de pthread foi alterada a assinatura da função tranferencia de**
   
@@ -55,9 +56,9 @@ para
   **observação:** as chamadas para _pthread_join_ foram colocadas dentro de outro _for_ para permitir que estas fossem feitas após a criação de todas as _threads_ no _for_ anterior, com objetivo de simular adequadamente a concorrência entre as _threads_. Desta forma, são criadas 100 _threads_ concorrentes entre si.
   
 ## 4- Como compilar
-A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar o parâmetro *-lpthread* na linha do *gcc*, conforme o exemplo abaixo:
+A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a utiliza é necessário acrescentar os parâmetros *-lpthread* e *-lrt* na linha do *gcc*, conforme o exemplo abaixo:
  
-              gcc myprogram.c -o myprogram -lpthread
+              gcc myprogram.c -o myprogram -lpthread -lrt
        
 **observação:** essa linha de compilação funciona em todas as plataformas propostas (Win 10/Unix/Linux).
 
