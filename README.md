@@ -43,8 +43,7 @@ para
   3.- Foi incluida a chamada à função pthread_create, conforme abaixo:
   
                 pid = pthread_create (&thid, NULL, transferencia,"tread 1" )
-                
-  3.- O if de verificação de retorno da função clone (if ( pid == -1 )) foi alterado para (if ( pid != 0 )), pois o teste de retorno de erro de pthread é diferente.
+              
   
   3.- Foi incluida a chamada para a função pthread_join, que é utilizada para aguardar o fim da thread:
   
