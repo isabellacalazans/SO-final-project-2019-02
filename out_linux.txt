@@ -1,0 +1,302 @@
+Transferindo 10 para a conta c2
+valor de pid 140481952630528 
+valor de pid 140481944237824 
+valor de pid 140481935845120 
+valor de pid 140481927452416 
+valor de pid 140481919059712 
+valor de pid 140481910667008 
+valor de pid 140481902274304 
+valor de pid 140481893881600 
+valor de pid 140481885488896 
+valor de pid 140481877096192 
+valor de pid 140481868703488 
+valor de pid 140481860310784 
+valor de pid 140481851918080 
+valor de pid 140481843525376 
+valor de pid 140481835132672 
+valor de pid 140481826739968 
+valor de pid 140481818347264 
+valor de pid 140481809954560 
+valor de pid 140481801561856 
+valor de pid 140481793169152 
+valor de pid 140481784776448 
+valor de pid 140481776383744 
+valor de pid 140481767991040 
+valor de pid 140481759598336 
+valor de pid 140481751205632 
+valor de pid 140481742812928 
+valor de pid 140481734420224 
+valor de pid 140481726027520 
+valor de pid 140481717634816 
+valor de pid 140481709242112 
+valor de pid 140481700849408 
+valor de pid 140481692456704 
+valor de pid 140481684064000 
+valor de pid 140481675671296 
+valor de pid 140481667278592 
+valor de pid 140481658885888 
+valor de pid 140481650493184 
+valor de pid 140481642100480 
+valor de pid 140481633707776 
+valor de pid 140481625315072 
+valor de pid 140481616922368 
+valor de pid 140481608529664 
+valor de pid 140481600136960 
+valor de pid 140481591744256 
+valor de pid 140481583351552 
+valor de pid 140481574958848 
+valor de pid 140481566566144 
+valor de pid 140481558173440 
+valor de pid 140481549780736 
+valor de pid 140481541388032 
+valor de pid 140481532995328 
+valor de pid 140481524602624 
+valor de pid 140481516209920 
+valor de pid 140481507817216 
+valor de pid 140481499424512 
+valor de pid 140481491031808 
+valor de pid 140481482639104 
+valor de pid 140481474246400 
+valor de pid 140481465853696 
+valor de pid 140481457460992 
+valor de pid 140481449068288 
+valor de pid 140481440675584 
+valor de pid 140481432282880 
+valor de pid 140481423890176 
+Transferência concluída! Saldo c1: 9990 - Saldo  c2: 10010
+Transferência concluída! Saldo c1: 9980 - Saldo  c2: 10020
+Transferência concluída! Saldo c1: 9970 - Saldo  c2: 10030
+Transferência concluída! Saldo c1: 9960 - Saldo  c2: 10040
+Transferência concluída! Saldo c1: 9950 - Saldo  c2: 10050
+Transferência concluída! Saldo c1: 9940 - Saldo  c2: 10060
+Transferência concluída! Saldo c1: 9930 - Saldo  c2: 10070
+Transferência concluída! Saldo c1: 9920 - Saldo  c2: 10080
+Transferência concluída! Saldo c1: 9910 - Saldo  c2: 10090
+Transferência concluída! Saldo c1: 9900 - Saldo  c2: 10100
+Transferência concluída! Saldo c1: 9890 - Saldo  c2: 10110
+Transferência concluída! Saldo c1: 9880 - Saldo  c2: 10120
+Transferência concluída! Saldo c1: 9870 - Saldo  c2: 10130
+Transferência concluída! Saldo c1: 9860 - Saldo  c2: 10140
+Transferência concluída! Saldo c1: 9850 - Saldo  c2: 10150
+Transferência concluída! Saldo c1: 9840 - Saldo  c2: 10160
+Transferência concluída! Saldo c1: 9830 - Saldo  c2: 10170
+Transferência concluída! Saldo c1: 9820 - Saldo  c2: 10180
+Transferência concluída! Saldo c1: 9810 - Saldo  c2: 10190
+Transferência concluída! Saldo c1: 9800 - Saldo  c2: 10200
+Transferência concluída! Saldo c1: 9790 - Saldo  c2: 10210
+Transferência concluída! Saldo c1: 9780 - Saldo  c2: 10220
+Transferência concluída! Saldo c1: 9770 - Saldo  c2: 10230
+Transferência concluída! Saldo c1: 9760 - Saldo  c2: 10240
+Transferência concluída! Saldo c1: 9750 - Saldo  c2: 10250
+Transferência concluída! Saldo c1: 9740 - Saldo  c2: 10260
+Transferência concluída! Saldo c1: 9730 - Saldo  c2: 10270
+Transferência concluída! Saldo c1: 9720 - Saldo  c2: 10280
+Transferência concluída! Saldo c1: 9710 - Saldo  c2: 10290
+Transferência concluída! Saldo c1: 9700 - Saldo  c2: 10300
+Transferência concluída! Saldo c1: 9690 - Saldo  c2: 10310
+Transferência concluída! Saldo c1: 9680 - Saldo  c2: 10320
+Transferência concluída! Saldo c1: 9670 - Saldo  c2: 10330
+Transferência concluída! Saldo c1: 9660 - Saldo  c2: 10340
+Transferência concluída! Saldo c1: 9650 - Saldo  c2: 10350
+Transferência concluída! Saldo c1: 9640 - Saldo  c2: 10360
+Transferência concluída! Saldo c1: 9630 - Saldo  c2: 10370
+Transferência concluída! Saldo c1: 9620 - Saldo  c2: 10380
+Transferência concluída! Saldo c1: 9610 - Saldo  c2: 10390
+Transferência concluída! Saldo c1: 9600 - Saldo  c2: 10400
+Transferência concluída! Saldo c1: 9590 - Saldo  c2: 10410
+Transferência concluída! Saldo c1: 9580 - Saldo  c2: 10420
+Transferência concluída! Saldo c1: 9570 - Saldo  c2: 10430
+Transferência concluída! Saldo c1: 9560 - Saldo  c2: 10440
+Transferência concluída! Saldo c1: 9550 - Saldo  c2: 10450
+Transferência concluída! Saldo c1: 9540 - Saldo  c2: 10460
+Transferência concluída! Saldo c1: 9530 - Saldo  c2: 10470
+Transferência concluída! Saldo c1: 9520 - Saldo  c2: 10480
+Transferência concluída! Saldo c1: 9510 - Saldo  c2: 10490
+Transferência concluída! Saldo c1: 9500 - Saldo  c2: 10500
+Transferência concluída! Saldo c1: 9490 - Saldo  c2: 10510
+Transferência concluída! Saldo c1: 9480 - Saldo  c2: 10520
+Transferência concluída! Saldo c1: 9470 - Saldo  c2: 10530
+Transferência concluída! Saldo c1: 9460 - Saldo  c2: 10540
+Transferência concluída! Saldo c1: 9450 - Saldo  c2: 10550
+Transferência concluída! Saldo c1: 9440 - Saldo  c2: 10560
+Transferência concluída! Saldo c1: 9430 - Saldo  c2: 10570
+Transferência concluída! Saldo c1: 9420 - Saldo  c2: 10580
+Transferência concluída! Saldo c1: 9410 - Saldo  c2: 10590
+Transferência concluída! Saldo c1: 9400 - Saldo  c2: 10600
+Transferência concluída! Saldo c1: 9390 - Saldo  c2: 10610
+Transferência concluída! Saldo c1: 9380 - Saldo  c2: 10620
+Transferência concluída! Saldo c1: 9370 - Saldo  c2: 10630
+Transferência concluída! Saldo c1: 9360 - Saldo  c2: 10640
+valor de pid 140481415497472 
+valor de pid 140481333819136 
+valor de pid 140481325426432 
+valor de pid 140481317033728 
+valor de pid 140481308641024 
+valor de pid 140481300248320 
+valor de pid 140481291855616 
+valor de pid 140481283462912 
+valor de pid 140481275070208 
+valor de pid 140481266677504 
+valor de pid 140481258284800 
+valor de pid 140481249892096 
+valor de pid 140481241499392 
+valor de pid 140481233106688 
+valor de pid 140481224713984 
+valor de pid 140481216321280 
+valor de pid 140481207928576 
+valor de pid 140481199535872 
+valor de pid 140481191143168 
+valor de pid 140481182750464 
+valor de pid 140481174357760 
+valor de pid 140481165965056 
+valor de pid 140481157572352 
+valor de pid 140481149179648 
+valor de pid 140481140786944 
+valor de pid 140481132394240 
+valor de pid 140481124001536 
+valor de pid 140481115608832 
+valor de pid 140481107216128 
+valor de pid 140481098823424 
+valor de pid 140481090430720 
+valor de pid 140481082038016 
+valor de pid 140481073645312 
+valor de pid 140481065252608 
+valor de pid 140481056859904 
+valor de pid 140481048467200 
+Thread 140481952630528 finalizada! Retorno = Fim Ok 
+Thread 140481944237824 finalizada! Retorno = Fim Ok 
+Thread 140481935845120 finalizada! Retorno = Fim Ok 
+Thread 140481927452416 finalizada! Retorno = Fim Ok 
+Thread 140481919059712 finalizada! Retorno = Fim Ok 
+Thread 140481910667008 finalizada! Retorno = Fim Ok 
+Thread 140481902274304 finalizada! Retorno = Fim Ok 
+Thread 140481893881600 finalizada! Retorno = Fim Ok 
+Thread 140481885488896 finalizada! Retorno = Fim Ok 
+Thread 140481877096192 finalizada! Retorno = Fim Ok 
+Thread 140481868703488 finalizada! Retorno = Fim Ok 
+Thread 140481860310784 finalizada! Retorno = Fim Ok 
+Thread 140481851918080 finalizada! Retorno = Fim Ok 
+Thread 140481843525376 finalizada! Retorno = Fim Ok 
+Thread 140481835132672 finalizada! Retorno = Fim Ok 
+Thread 140481826739968 finalizada! Retorno = Fim Ok 
+Thread 140481818347264 finalizada! Retorno = Fim Ok 
+Thread 140481809954560 finalizada! Retorno = Fim Ok 
+Thread 140481801561856 finalizada! Retorno = Fim Ok 
+Thread 140481793169152 finalizada! Retorno = Fim Ok 
+Thread 140481784776448 finalizada! Retorno = Fim Ok 
+Thread 140481776383744 finalizada! Retorno = Fim Ok 
+Thread 140481767991040 finalizada! Retorno = Fim Ok 
+Thread 140481759598336 finalizada! Retorno = Fim Ok 
+Thread 140481751205632 finalizada! Retorno = Fim Ok 
+Thread 140481742812928 finalizada! Retorno = Fim Ok 
+Thread 140481734420224 finalizada! Retorno = Fim Ok 
+Thread 140481726027520 finalizada! Retorno = Fim Ok 
+Thread 140481717634816 finalizada! Retorno = Fim Ok 
+Thread 140481709242112 finalizada! Retorno = Fim Ok 
+Thread 140481700849408 finalizada! Retorno = Fim Ok 
+Thread 140481692456704 finalizada! Retorno = Fim Ok 
+Thread 140481684064000 finalizada! Retorno = Fim Ok 
+Thread 140481675671296 finalizada! Retorno = Fim Ok 
+Thread 140481667278592 finalizada! Retorno = Fim Ok 
+Thread 140481658885888 finalizada! Retorno = Fim Ok 
+Thread 140481650493184 finalizada! Retorno = Fim Ok 
+Thread 140481642100480 finalizada! Retorno = Fim Ok 
+Thread 140481633707776 finalizada! Retorno = Fim Ok 
+Thread 140481625315072 finalizada! Retorno = Fim Ok 
+Thread 140481616922368 finalizada! Retorno = Fim Ok 
+Thread 140481608529664 finalizada! Retorno = Fim Ok 
+Thread 140481600136960 finalizada! Retorno = Fim Ok 
+Thread 140481591744256 finalizada! Retorno = Fim Ok 
+Thread 140481583351552 finalizada! Retorno = Fim Ok 
+Thread 140481574958848 finalizada! Retorno = Fim Ok 
+Thread 140481566566144 finalizada! Retorno = Fim Ok 
+Thread 140481558173440 finalizada! Retorno = Fim Ok 
+Thread 140481549780736 finalizada! Retorno = Fim Ok 
+Thread 140481541388032 finalizada! Retorno = Fim Ok 
+Thread 140481532995328 finalizada! Retorno = Fim Ok 
+Thread 140481524602624 finalizada! Retorno = Fim Ok 
+Thread 140481516209920 finalizada! Retorno = Fim Ok 
+Thread 140481507817216 finalizada! Retorno = Fim Ok 
+Thread 140481499424512 finalizada! Retorno = Fim Ok 
+Thread 140481491031808 finalizada! Retorno = Fim Ok 
+Thread 140481482639104 finalizada! Retorno = Fim Ok 
+Thread 140481474246400 finalizada! Retorno = Fim Ok 
+Thread 140481465853696 finalizada! Retorno = Fim Ok 
+Thread 140481457460992 finalizada! Retorno = Fim Ok 
+Thread 140481449068288 finalizada! Retorno = Fim Ok 
+Thread 140481440675584 finalizada! Retorno = Fim Ok 
+Thread 140481432282880 finalizada! Retorno = Fim Ok 
+Thread 140481423890176 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9350 - Saldo  c2: 10650
+Transferência concluída! Saldo c1: 9340 - Saldo  c2: 10660
+Transferência concluída! Saldo c1: 9330 - Saldo  c2: 10670
+Transferência concluída! Saldo c1: 9320 - Saldo  c2: 10680
+Transferência concluída! Saldo c1: 9310 - Saldo  c2: 10690
+Transferência concluída! Saldo c1: 9300 - Saldo  c2: 10700
+Transferência concluída! Saldo c1: 9290 - Saldo  c2: 10710
+Transferência concluída! Saldo c1: 9280 - Saldo  c2: 10720
+Transferência concluída! Saldo c1: 9270 - Saldo  c2: 10730
+Transferência concluída! Saldo c1: 9260 - Saldo  c2: 10740
+Transferência concluída! Saldo c1: 9250 - Saldo  c2: 10750
+Transferência concluída! Saldo c1: 9240 - Saldo  c2: 10760
+Transferência concluída! Saldo c1: 9230 - Saldo  c2: 10770
+Transferência concluída! Saldo c1: 9220 - Saldo  c2: 10780
+Transferência concluída! Saldo c1: 9210 - Saldo  c2: 10790
+Transferência concluída! Saldo c1: 9200 - Saldo  c2: 10800
+Transferência concluída! Saldo c1: 9190 - Saldo  c2: 10810
+Transferência concluída! Saldo c1: 9180 - Saldo  c2: 10820
+Transferência concluída! Saldo c1: 9170 - Saldo  c2: 10830
+Transferência concluída! Saldo c1: 9160 - Saldo  c2: 10840
+Transferência concluída! Saldo c1: 9150 - Saldo  c2: 10850
+Transferência concluída! Saldo c1: 9140 - Saldo  c2: 10860
+Transferência concluída! Saldo c1: 9130 - Saldo  c2: 10870
+Transferência concluída! Saldo c1: 9120 - Saldo  c2: 10880
+Transferência concluída! Saldo c1: 9110 - Saldo  c2: 10890
+Transferência concluída! Saldo c1: 9100 - Saldo  c2: 10900
+Transferência concluída! Saldo c1: 9090 - Saldo  c2: 10910
+Transferência concluída! Saldo c1: 9080 - Saldo  c2: 10920
+Transferência concluída! Saldo c1: 9070 - Saldo  c2: 10930
+Transferência concluída! Saldo c1: 9060 - Saldo  c2: 10940
+Transferência concluída! Saldo c1: 9050 - Saldo  c2: 10950
+Transferência concluída! Saldo c1: 9040 - Saldo  c2: 10960
+Transferência concluída! Saldo c1: 9030 - Saldo  c2: 10970
+Transferência concluída! Saldo c1: 9020 - Saldo  c2: 10980
+Transferência concluída! Saldo c1: 9010 - Saldo  c2: 10990
+Transferência concluída! Saldo c1: 9000 - Saldo  c2: 11000
+Thread 140481415497472 finalizada! Retorno = Fim Ok 
+Thread 140481333819136 finalizada! Retorno = Fim Ok 
+Thread 140481325426432 finalizada! Retorno = Fim Ok 
+Thread 140481317033728 finalizada! Retorno = Fim Ok 
+Thread 140481308641024 finalizada! Retorno = Fim Ok 
+Thread 140481300248320 finalizada! Retorno = Fim Ok 
+Thread 140481291855616 finalizada! Retorno = Fim Ok 
+Thread 140481283462912 finalizada! Retorno = Fim Ok 
+Thread 140481275070208 finalizada! Retorno = Fim Ok 
+Thread 140481266677504 finalizada! Retorno = Fim Ok 
+Thread 140481258284800 finalizada! Retorno = Fim Ok 
+Thread 140481249892096 finalizada! Retorno = Fim Ok 
+Thread 140481241499392 finalizada! Retorno = Fim Ok 
+Thread 140481233106688 finalizada! Retorno = Fim Ok 
+Thread 140481224713984 finalizada! Retorno = Fim Ok 
+Thread 140481216321280 finalizada! Retorno = Fim Ok 
+Thread 140481207928576 finalizada! Retorno = Fim Ok 
+Thread 140481199535872 finalizada! Retorno = Fim Ok 
+Thread 140481191143168 finalizada! Retorno = Fim Ok 
+Thread 140481182750464 finalizada! Retorno = Fim Ok 
+Thread 140481174357760 finalizada! Retorno = Fim Ok 
+Thread 140481165965056 finalizada! Retorno = Fim Ok 
+Thread 140481157572352 finalizada! Retorno = Fim Ok 
+Thread 140481149179648 finalizada! Retorno = Fim Ok 
+Thread 140481140786944 finalizada! Retorno = Fim Ok 
+Thread 140481132394240 finalizada! Retorno = Fim Ok 
+Thread 140481124001536 finalizada! Retorno = Fim Ok 
+Thread 140481115608832 finalizada! Retorno = Fim Ok 
+Thread 140481107216128 finalizada! Retorno = Fim Ok 
+Thread 140481098823424 finalizada! Retorno = Fim Ok 
+Thread 140481090430720 finalizada! Retorno = Fim Ok 
+Thread 140481082038016 finalizada! Retorno = Fim Ok 
+Thread 140481073645312 finalizada! Retorno = Fim Ok 
+Thread 140481065252608 finalizada! Retorno = Fim Ok 
+Thread 140481056859904 finalizada! Retorno = Fim Ok 
+Thread 140481048467200 finalizada! Retorno = Fim Ok 
+Transferências concluídas e memória liberada.

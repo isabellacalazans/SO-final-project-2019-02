@@ -1,0 +1,302 @@
+Transferindo 10 para a conta c2
+valor de pid 1 
+valor de pid 2 
+valor de pid 3 
+valor de pid 4 
+valor de pid 5 
+valor de pid 6 
+valor de pid 7 
+valor de pid 8 
+Transferência concluída! Saldo c1: 9990 - Saldo  c2: 10010
+valor de pid 9 
+valor de pid 10 
+Transferência concluída! Saldo c1: 9980 - Saldo  c2: 10020
+valor de pid 11 
+valor de pid 12 
+valor de pid 13 
+Transferência concluída! Saldo c1: 9970 - Saldo  c2: 10030
+valor de pid 14 
+valor de pid 15 
+Transferência concluída! Saldo c1: 9960 - Saldo  c2: 10040
+valor de pid 16 
+Transferência concluída! Saldo c1: 9950 - Saldo  c2: 10050
+valor de pid 17 
+Transferência concluída! Saldo c1: 9940 - Saldo  c2: 10060
+valor de pid 18 
+valor de pid 19 
+valor de pid 20 
+Transferência concluída! Saldo c1: 9930 - Saldo  c2: 10070
+valor de pid 21 
+valor de pid 22 
+valor de pid 23 
+valor de pid 24 
+Transferência concluída! Saldo c1: 9920 - Saldo  c2: 10080
+valor de pid 25 
+Transferência concluída! Saldo c1: 9910 - Saldo  c2: 10090
+valor de pid 26 
+valor de pid 27 
+Transferência concluída! Saldo c1: 9900 - Saldo  c2: 10100
+valor de pid 28 
+valor de pid 29 
+Transferência concluída! Saldo c1: 9890 - Saldo  c2: 10110
+valor de pid 30 
+Transferência concluída! Saldo c1: 9880 - Saldo  c2: 10120
+valor de pid 31 
+Transferência concluída! Saldo c1: 9870 - Saldo  c2: 10130
+valor de pid 32 
+valor de pid 33 
+Transferência concluída! Saldo c1: 9860 - Saldo  c2: 10140
+valor de pid 34 
+Transferência concluída! Saldo c1: 9850 - Saldo  c2: 10150
+valor de pid 35 
+valor de pid 36 
+valor de pid 37 
+valor de pid 38 
+Transferência concluída! Saldo c1: 9840 - Saldo  c2: 10160
+valor de pid 39 
+Transferência concluída! Saldo c1: 9830 - Saldo  c2: 10170
+Transferência concluída! Saldo c1: 9820 - Saldo  c2: 10180
+valor de pid 40 
+valor de pid 41 
+Transferência concluída! Saldo c1: 9810 - Saldo  c2: 10190
+valor de pid 42 
+Transferência concluída! Saldo c1: 9800 - Saldo  c2: 10200
+valor de pid 43 
+Transferência concluída! Saldo c1: 9790 - Saldo  c2: 10210
+valor de pid 44 
+Transferência concluída! Saldo c1: 9780 - Saldo  c2: 10220
+valor de pid 45 
+valor de pid 46 
+valor de pid 47 
+Transferência concluída! Saldo c1: 9770 - Saldo  c2: 10230
+valor de pid 48 
+Transferência concluída! Saldo c1: 9760 - Saldo  c2: 10240
+valor de pid 49 
+Transferência concluída! Saldo c1: 9750 - Saldo  c2: 10250
+Transferência concluída! Saldo c1: 9740 - Saldo  c2: 10260
+valor de pid 50 
+Transferência concluída! Saldo c1: 9730 - Saldo  c2: 10270
+valor de pid 51 
+Transferência concluída! Saldo c1: 9720 - Saldo  c2: 10280
+valor de pid 52 
+valor de pid 53 
+Transferência concluída! Saldo c1: 9710 - Saldo  c2: 10290
+valor de pid 54 
+Transferência concluída! Saldo c1: 9700 - Saldo  c2: 10300
+valor de pid 55 
+Transferência concluída! Saldo c1: 9690 - Saldo  c2: 10310
+valor de pid 56 
+Transferência concluída! Saldo c1: 9680 - Saldo  c2: 10320
+valor de pid 57 
+Transferência concluída! Saldo c1: 9670 - Saldo  c2: 10330
+Transferência concluída! Saldo c1: 9660 - Saldo  c2: 10340
+valor de pid 58 
+valor de pid 59 
+Transferência concluída! Saldo c1: 9650 - Saldo  c2: 10350
+valor de pid 60 
+Transferência concluída! Saldo c1: 9640 - Saldo  c2: 10360
+valor de pid 61 
+Transferência concluída! Saldo c1: 9630 - Saldo  c2: 10370
+valor de pid 62 
+valor de pid 63 
+Transferência concluída! Saldo c1: 9620 - Saldo  c2: 10380
+valor de pid 64 
+valor de pid 65 
+Transferência concluída! Saldo c1: 9610 - Saldo  c2: 10390
+valor de pid 66 
+Transferência concluída! Saldo c1: 9600 - Saldo  c2: 10400
+valor de pid 67 
+valor de pid 68 
+Transferência concluída! Saldo c1: 9590 - Saldo  c2: 10410
+Transferência concluída! Saldo c1: 9580 - Saldo  c2: 10420
+valor de pid 69 
+valor de pid 70 
+Transferência concluída! Saldo c1: 9570 - Saldo  c2: 10430
+valor de pid 71 
+Transferência concluída! Saldo c1: 9560 - Saldo  c2: 10440
+Transferência concluída! Saldo c1: 9550 - Saldo  c2: 10450
+valor de pid 72 
+Transferência concluída! Saldo c1: 9540 - Saldo  c2: 10460
+Transferência concluída! Saldo c1: 9530 - Saldo  c2: 10470
+valor de pid 73 
+Transferência concluída! Saldo c1: 9520 - Saldo  c2: 10480
+Transferência concluída! Saldo c1: 9510 - Saldo  c2: 10490
+Transferência concluída! Saldo c1: 9500 - Saldo  c2: 10500
+valor de pid 74 
+Transferência concluída! Saldo c1: 9490 - Saldo  c2: 10510
+Transferência concluída! Saldo c1: 9480 - Saldo  c2: 10520
+valor de pid 75 
+Transferência concluída! Saldo c1: 9470 - Saldo  c2: 10530
+valor de pid 76 
+Transferência concluída! Saldo c1: 9460 - Saldo  c2: 10540
+valor de pid 77 
+Transferência concluída! Saldo c1: 9450 - Saldo  c2: 10550
+valor de pid 78 
+valor de pid 79 
+Transferência concluída! Saldo c1: 9440 - Saldo  c2: 10560
+valor de pid 80 
+Transferência concluída! Saldo c1: 9430 - Saldo  c2: 10570
+Transferência concluída! Saldo c1: 9420 - Saldo  c2: 10580
+valor de pid 81 
+Transferência concluída! Saldo c1: 9410 - Saldo  c2: 10590
+valor de pid 82 
+valor de pid 83 
+Transferência concluída! Saldo c1: 9400 - Saldo  c2: 10600
+valor de pid 84 
+Transferência concluída! Saldo c1: 9390 - Saldo  c2: 10610
+Transferência concluída! Saldo c1: 9380 - Saldo  c2: 10620
+valor de pid 85 
+Transferência concluída! Saldo c1: 9370 - Saldo  c2: 10630
+valor de pid 86 
+Transferência concluída! Saldo c1: 9360 - Saldo  c2: 10640
+valor de pid 87 
+Transferência concluída! Saldo c1: 9350 - Saldo  c2: 10650
+valor de pid 88 
+Transferência concluída! Saldo c1: 9340 - Saldo  c2: 10660
+Transferência concluída! Saldo c1: 9330 - Saldo  c2: 10670
+valor de pid 89 
+valor de pid 90 
+Transferência concluída! Saldo c1: 9320 - Saldo  c2: 10680
+Transferência concluída! Saldo c1: 9310 - Saldo  c2: 10690
+valor de pid 91 
+Transferência concluída! Saldo c1: 9300 - Saldo  c2: 10700
+valor de pid 92 
+valor de pid 93 
+Transferência concluída! Saldo c1: 9290 - Saldo  c2: 10710
+Transferência concluída! Saldo c1: 9280 - Saldo  c2: 10720
+valor de pid 94 
+Transferência concluída! Saldo c1: 9270 - Saldo  c2: 10730
+valor de pid 95 
+valor de pid 96 
+Transferência concluída! Saldo c1: 9260 - Saldo  c2: 10740
+valor de pid 97 
+Transferência concluída! Saldo c1: 9250 - Saldo  c2: 10750
+valor de pid 98 
+Transferência concluída! Saldo c1: 9240 - Saldo  c2: 10760
+valor de pid 99 
+Transferência concluída! Saldo c1: 9230 - Saldo  c2: 10770
+valor de pid 100 
+Thread 1 finalizada! Retorno = Fim Ok 
+Thread 2 finalizada! Retorno = Fim Ok 
+Thread 3 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9220 - Saldo  c2: 10780
+Thread 4 finalizada! Retorno = Fim Ok 
+Thread 5 finalizada! Retorno = Fim Ok 
+Thread 6 finalizada! Retorno = Fim Ok 
+Thread 7 finalizada! Retorno = Fim Ok 
+Thread 8 finalizada! Retorno = Fim Ok 
+Thread 9 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9210 - Saldo  c2: 10790
+Thread 10 finalizada! Retorno = Fim Ok 
+Thread 11 finalizada! Retorno = Fim Ok 
+Thread 12 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9200 - Saldo  c2: 10800
+Thread 13 finalizada! Retorno = Fim Ok 
+Thread 14 finalizada! Retorno = Fim Ok 
+Thread 15 finalizada! Retorno = Fim Ok 
+Thread 16 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9190 - Saldo  c2: 10810
+Thread 17 finalizada! Retorno = Fim Ok 
+Thread 18 finalizada! Retorno = Fim Ok 
+Thread 19 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9180 - Saldo  c2: 10820
+Transferência concluída! Saldo c1: 9170 - Saldo  c2: 10830
+Transferência concluída! Saldo c1: 9160 - Saldo  c2: 10840
+Transferência concluída! Saldo c1: 9150 - Saldo  c2: 10850
+Transferência concluída! Saldo c1: 9140 - Saldo  c2: 10860
+Transferência concluída! Saldo c1: 9130 - Saldo  c2: 10870
+Transferência concluída! Saldo c1: 9120 - Saldo  c2: 10880
+Thread 20 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9110 - Saldo  c2: 10890
+Thread 21 finalizada! Retorno = Fim Ok 
+Thread 22 finalizada! Retorno = Fim Ok 
+Thread 23 finalizada! Retorno = Fim Ok 
+Thread 24 finalizada! Retorno = Fim Ok 
+Thread 25 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9100 - Saldo  c2: 10900
+Thread 26 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9090 - Saldo  c2: 10910
+Thread 27 finalizada! Retorno = Fim Ok 
+Thread 28 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9080 - Saldo  c2: 10920
+Thread 29 finalizada! Retorno = Fim Ok 
+Thread 30 finalizada! Retorno = Fim Ok 
+Thread 31 finalizada! Retorno = Fim Ok 
+Thread 32 finalizada! Retorno = Fim Ok 
+Thread 33 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9070 - Saldo  c2: 10930
+Thread 34 finalizada! Retorno = Fim Ok 
+Thread 35 finalizada! Retorno = Fim Ok 
+Thread 36 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9060 - Saldo  c2: 10940
+Thread 37 finalizada! Retorno = Fim Ok 
+Thread 38 finalizada! Retorno = Fim Ok 
+Thread 39 finalizada! Retorno = Fim Ok 
+Thread 40 finalizada! Retorno = Fim Ok 
+Thread 41 finalizada! Retorno = Fim Ok 
+Thread 42 finalizada! Retorno = Fim Ok 
+Thread 43 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9050 - Saldo  c2: 10950
+Thread 44 finalizada! Retorno = Fim Ok 
+Thread 45 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9040 - Saldo  c2: 10960
+Transferência concluída! Saldo c1: 9030 - Saldo  c2: 10970
+Thread 46 finalizada! Retorno = Fim Ok 
+Thread 47 finalizada! Retorno = Fim Ok 
+Thread 48 finalizada! Retorno = Fim Ok 
+Thread 49 finalizada! Retorno = Fim Ok 
+Thread 50 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9020 - Saldo  c2: 10980
+Thread 51 finalizada! Retorno = Fim Ok 
+Thread 52 finalizada! Retorno = Fim Ok 
+Thread 53 finalizada! Retorno = Fim Ok 
+Thread 54 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9010 - Saldo  c2: 10990
+Thread 55 finalizada! Retorno = Fim Ok 
+Thread 56 finalizada! Retorno = Fim Ok 
+Thread 57 finalizada! Retorno = Fim Ok 
+Thread 58 finalizada! Retorno = Fim Ok 
+Thread 59 finalizada! Retorno = Fim Ok 
+Thread 60 finalizada! Retorno = Fim Ok 
+Thread 61 finalizada! Retorno = Fim Ok 
+Transferência concluída! Saldo c1: 9000 - Saldo  c2: 11000
+Thread 62 finalizada! Retorno = Fim Ok 
+Thread 63 finalizada! Retorno = Fim Ok 
+Thread 64 finalizada! Retorno = Fim Ok 
+Thread 65 finalizada! Retorno = Fim Ok 
+Thread 66 finalizada! Retorno = Fim Ok 
+Thread 67 finalizada! Retorno = Fim Ok 
+Thread 68 finalizada! Retorno = Fim Ok 
+Thread 69 finalizada! Retorno = Fim Ok 
+Thread 70 finalizada! Retorno = Fim Ok 
+Thread 71 finalizada! Retorno = Fim Ok 
+Thread 72 finalizada! Retorno = Fim Ok 
+Thread 73 finalizada! Retorno = Fim Ok 
+Thread 74 finalizada! Retorno = Fim Ok 
+Thread 75 finalizada! Retorno = Fim Ok 
+Thread 76 finalizada! Retorno = Fim Ok 
+Thread 77 finalizada! Retorno = Fim Ok 
+Thread 78 finalizada! Retorno = Fim Ok 
+Thread 79 finalizada! Retorno = Fim Ok 
+Thread 80 finalizada! Retorno = Fim Ok 
+Thread 81 finalizada! Retorno = Fim Ok 
+Thread 82 finalizada! Retorno = Fim Ok 
+Thread 83 finalizada! Retorno = Fim Ok 
+Thread 84 finalizada! Retorno = Fim Ok 
+Thread 85 finalizada! Retorno = Fim Ok 
+Thread 86 finalizada! Retorno = Fim Ok 
+Thread 87 finalizada! Retorno = Fim Ok 
+Thread 88 finalizada! Retorno = Fim Ok 
+Thread 89 finalizada! Retorno = Fim Ok 
+Thread 90 finalizada! Retorno = Fim Ok 
+Thread 91 finalizada! Retorno = Fim Ok 
+Thread 92 finalizada! Retorno = Fim Ok 
+Thread 93 finalizada! Retorno = Fim Ok 
+Thread 94 finalizada! Retorno = Fim Ok 
+Thread 95 finalizada! Retorno = Fim Ok 
+Thread 96 finalizada! Retorno = Fim Ok 
+Thread 97 finalizada! Retorno = Fim Ok 
+Thread 98 finalizada! Retorno = Fim Ok 
+Thread 99 finalizada! Retorno = Fim Ok 
+Thread 100 finalizada! Retorno = Fim Ok 
+Transferências concluídas e memória liberada.
