@@ -38,6 +38,8 @@ para
   
                 pthread_t thid[limite]
                 
+  **observação:** a constante _limite_ define quantas _threads_ serão criadas, ou seja, quantas transferências simultâneas serão realizadas.
+  
   3.- Foi comentada a chamada da função clone.
   
   3.- Foi incluida a chamada à função pthread_create, conforme abaixo:
@@ -61,6 +63,7 @@ A biblioteca _pthread_ é dinâmica, ou seja, para compilar o código em C que a
 
 
 #5- Como executar
+
 Uma vez compilado conforme indicação no passo anterior, para executar o programa basta proceder conforme abaixo:
   1. Linux: 
   2. Unix:
@@ -70,4 +73,5 @@ Uma vez compilado conforme indicação no passo anterior, para executar o progra
      - digite myprogram.exe e aguarde o resultado do processamento (nesse momento, alguns antí-virus podem iniciar uma verificação no seu programa, aguarde o término).
 
 #6- Observações gerais
+
 Dependendo da configuração do S.O. pode ser necessário a instalação da biblioteca pthread para a compilação. Por exemplo, no caso do Windows 10 são necessários *cygwing64* e *mingw64*.
