@@ -19,7 +19,7 @@ typedef struct c conta;
 
 conta from, to;
 int valor;
-int pid;
+int ret;
 
 // The child thread will execute this function
 void *transferencia(void *arg)
@@ -64,15 +64,14 @@ int main()
  const int limite = 100;
  pthread_t thid[limite];
  void * thread_res;
- int rstatus;
 
  for (i = 0; i < limite; i++) {
    // Call the clone system call to create the child thread
    //pid = clone( &transferencia, (char*) stack + FIBER_STACK,
    //SIGCHLD | CLONE_FS | CLONE_FILES | CLONE_SIGHAND | CLONE_VM, 0 );
 
-     pid = pthread_create (&thid[i], NULL, transferencia,"tread 1" );
-     if ( pid == -1) {
+     ret = pthread_create (&thid[i], NULL, transferencia,"tread 1" );
+     if ( ret == -1) {
        perror( "thread create error" );
        exit(2);
      }
@@ -81,10 +80,10 @@ int main()
  }
  
  for (i = 0; i < limite; i++) {
-	rstatus = pthread_join(thid[i], &thread_res);
+	ret = pthread_join(thid[i], &thread_res);
 
     /*verificar se ocorreu algum erro na chamada de pthread_join*/
-  	if(rstatus == -1)
+  	if(ret == -1)
   	{
   		printf ("Erro ao aguardar finalização do thread.\n");
   		exit(EXIT_FAILURE);
